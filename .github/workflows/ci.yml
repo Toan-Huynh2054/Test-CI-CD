@@ -28,3 +28,6 @@ jobs:
 
       - name: Simulate deploy
         run: echo "Deploy success"
+
+      - name: Build Docker image
+        run: docker build -t ci-demo .
